@@ -1,6 +1,8 @@
 from flask import Flask, render_template, request, jsonify
 import joblib
 from sklearn.feature_extraction.text import TfidfVectorizer
+import pickle
+import numpy as np
 
 app = Flask(__name__)
 
