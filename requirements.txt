@@ -3,4 +3,3 @@ flask
 joblib
 scikit-learn
 numpy
-pickle
